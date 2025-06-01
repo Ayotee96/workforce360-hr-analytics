@@ -47,11 +47,11 @@ Workforce360 offers data-driven insights into demographics, attrition patterns, 
 - Incorporate Predictive HR Analytics (Future Scope): Build on this report by developing a predictive model to proactively identify employees at risk of leaving using historical attrition trends, performance, and satisfaction data.
 
 ## Challenges Faced
-Time Intelligence through Data Modeling: A date dimension table and the USERELATIONSHIP() function in DAX were needed to handle inactive relationships and guarantee accurate time-based analysis because the dataset included numerous date fields (such as Hire Date and Review Date).
+- Time Intelligence through Data Modeling: A date dimension table and the USERELATIONSHIP() function in DAX were needed to handle inactive relationships and guarantee accurate time-based analysis because the dataset included numerous date fields (such as Hire Date and Review Date).
 
-Calculating the Attrition Rate: It was necessary to filter the appropriate population in each visual and clearly distinguish between active and inactive employees in order to define the attrition logic. It required more work to create a dynamic measure that changed with slicers and filters.
+- Calculating the Attrition Rate: It was necessary to filter the appropriate population in each visual and clearly distinguish between active and inactive employees in order to define the attrition logic. It required more work to create a dynamic measure that changed with slicers and filters.
 
-Creating Adaptable Age Groups: It was difficult to create unique age bins in Power Query that were consistent across visuals, readable, and sortable. Using M formulas and conditional columns required trial and error.
+- Creating Adaptable Age Groups: It was difficult to create unique age bins in Power Query that were consistent across visuals, readable, and sortable. Using M formulas and conditional columns required trial and error.
 
 link to the full report(HR_Analytics) [https://app.powerbi.com/groups/11c67678-fd47-4222-b59d-0814a419a10d/reports/3e77e564-3ece-4750-badd-1ce0be7ddbda?ctid=6bd0734e-4fc4-4b1c-be23-6e5b6ed0d481&pbi_source=linkShare&bookmarkGuid=ec60f186-8522-4c01-8348-01466410dbcb] to explore the full report
 
